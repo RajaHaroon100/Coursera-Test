@@ -1,7 +1,47 @@
-/* Basic CSS for styling elements */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+h1 {
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: #ccc;
+  border: 1px solid #000;
+  width: 300px;
+  padding: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.box-title {
+  position: absolute;
+  top: -20px;
+  right: 0;
+  padding: 5px 15px;
+  border: 1px solid #000;
+  font-weight: bold;
+}
+
+.title-chicken {
+  background-color: #f5a9a9;
+}
+
+.title-beef {
+  background-color: #d9534f;
+  color: white;
+}
+
+.title-sushi {
+  background-color: #f9e79f;
 }
